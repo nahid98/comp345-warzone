@@ -1,0 +1,2 @@
+tournament -M maps/canada.map,maps/solar.map -P Benevolent,Aggressive,Cheater -G 3 -D 40
+quit

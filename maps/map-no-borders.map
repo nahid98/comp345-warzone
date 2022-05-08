@@ -1,0 +1,72 @@
+; map: artic.map
+; map made with the map maker
+; yura.net Risk 1.0.9.3
+
+[files]
+pic artic_pic.png
+map artic_map.gif
+crd artic.cards
+
+[continents]
+Artic 5 white
+Canada 5 green
+Russia 8 yellow
+Norway 2 blue
+United_States 4 orange
+Denmark 5 cyan
+
+[countries]
+1 Whitehorse 2 108 66
+2 Dawson 2 148 77
+3 Watson_Lake 2 74 83
+4 Inuvik 2 161 109
+5 Hay_River 2 43 115
+6 Echo_Bay 2 97 129
+7 Yellowknife 2 58 136
+8 Cambridge_Bay 2 110 176
+9 Resolute 2 162 206
+10 Alert 2 263 234
+11 Repulse_Bay 2 75 226
+12 Rankin_Inlet 2 39 209
+13 Iqaluit 2 67 279
+14 Prudhoe_Bay 5 223 94
+15 Barrow 5 258 89
+16 Nome 5 269 41
+17 Fairbanks 5 187 63
+18 Valdez 5 157 44
+19 Anchorage 5 179 37
+20 Bethel 5 207 14
+21 Kodiak 5 165 9
+22 Juneau 5 84 52
+23 Longyearbyen 4 366 292
+24 Tromso 4 411 346
+25 Oslo 4 396 414
+26 Narsarsuaq 6 110 360
+27 Tasiilaq 6 175 345
+28 Paamiut 6 101 340
+29 Nuuk 6 119 329
+30 Kangerlussuaq 6 141 316
+31 Ittoqqortoormiit 6 252 338
+32 Qaanaaq 6 208 248
+33 Nord 6 309 269
+34 Torshavn 6 301 410
+35 Murmansk 3 466 334
+36 Arkangelsk 3 517 349
+37 Saint_Petersburg 3 506 397
+38 Moscow 3 563 401
+39 NizHiniy_Novogorod 3 595 383
+40 Kazan 3 623 369
+41 Perm 3 629 338
+42 Dikson 3 521 230
+43 Norilsk 3 570 218
+44 Tiksi 3 495 132
+45 Verkhoyansk 3 518 101
+46 Cherskiy 3 412 68
+47 Provideniya 3 304 34
+48 Anadyr 3 355 35
+49 Magadan 3 497 22
+50 Oymyakon 3 514 63
+51 Yakustsk 3 581 87
+52 Okhotsk 3 540 41
+53 Pevek 3 370 69
+54 North_Pole 1 336 212

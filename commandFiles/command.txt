@@ -1,0 +1,7 @@
+loadmap maps/canada.map
+validatemap
+addplayer a1 Aggressive
+addplayer a2 Benevolent
+addplayer a3 Benevolent
+gamestart
+quit

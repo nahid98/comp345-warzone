@@ -1,0 +1,5 @@
+loadmaps arctic.map
+validatemaps
+addplayers a1
+gamestarts
+quits

@@ -1061,12 +1061,12 @@ void BenevolentPlayerStrategy::issueOrder() {
 		if (reinforcementPool < vacantTerr) {
 
 			//will be giving each vacant territory 1 army as long as possible
-			for (int i = defendList.size(); i > 0; i--) {
+			for (int i =0; i <defendList.size()-1; i++) {
 				
 				//If there is still troops to be deployed
 				if (reinforcementPool > 0) {
 					
-					player->getPlayerOrders()->addOrder(new Deploy(this->player, defendList.at(i-1), 1));
+					player->getPlayerOrders()->addOrder(new Deploy(this->player, defendList.at(i), 1));
 
 					reinforcementPool=reinforcementPool-1;
 				}

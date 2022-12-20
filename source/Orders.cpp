@@ -1,3 +1,4 @@
+#ifdef _WIN32
 #ifdef _DEBUG
 #define _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
@@ -5,6 +6,8 @@
 #define DEBUG_NEW new(_NORMAL_BLOCK, __FILE__, __LINE__)
 #define new DEBUG_NEW
 #endif
+#endif // _WIN32
+
 //---------------------------------------------------------------------------------------------------------------------
 // This file consists of the "Orders" class and it subclasses implementations
 // Subclasses of "Orders" are: "Deploy", "Advance", "Bomb", "Blockade", "Airlift", "Negotiate", and "OrderList"
@@ -16,6 +19,7 @@
 #include "headers/LoggingObserver.h"
 #include "headers/Map.h"
 #include "headers/GameEngine.h"
+#include <algorithm>
 #include <string>
 #include <vector>
 #include <iostream>

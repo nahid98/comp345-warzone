@@ -1,4 +1,5 @@
 #include "headers/PlayerStrategy.h"
+#include <cmath>
 #include <string>
 #include <vector>
 #include <iostream>
@@ -372,12 +373,14 @@ void HumanPlayerStrategy::issueOrder() {
 						sourceIsValid = true;
 					}
 				}
+
 				for (int i = 0; i < defendList.size(); i++) {
 					if (defendList.at(i)->getName() == targetTerrName) {
 						targetTerr = defendList.at(i);
 						targetIsValid = true;
 					}
 				}
+
 				for (int i = 0; i < attackList.size(); i++) {
 					if (attackList.at(i)->getName() == targetTerrName) {
 						targetTerr = attackList.at(i);
